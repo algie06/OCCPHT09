@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Form web page</h1>
+    </header>
+    <section id="contact form">
+    <hr/>
+        <form action="submit.php" method="post">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+            
+            <br>
+            
+            <label for="email">E-mail: </label>
+            <input type="text" name="name" id="email" required>
+            
+            <br>
+            
+            <label for="contact number">Phone Number: </label>
+            <input type="number" name="name" id="contact number" required>
+            
+            <br>
+            
+            <label for="color">Favorite Color</label>
+            <input type="color" id="color" name="color" value="#ffffff">
+            
+            <br>
+            
+            <label for="remarks">Remarks:</label>
+            <textarea name="remarks" id="remarks" rows="5" cols="30"></textarea>
+            
+            <br>
+            
+            <p>Select a gender:</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="option1">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="option2">Female</label>
+
+            <br>
+
+            <label for="Brithdate">Brithdate</label>
+            <input type="date" name="Brithdate" id="Brithdate">
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <hr>
+    </section>
+
+    <footer>Thank you <img src="./ok.jpg" alt="ok image" height="20px" width="20px"></footer>
+</body>
+</html>
